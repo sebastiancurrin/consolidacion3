@@ -1,0 +1,78 @@
+.history{
+    display: inline-flex;
+    vertical-align: top;
+    background-color: bisque;
+    height: 91vh;
+    width: 26%;
+    flex-direction: column;
+    align-items: center;
+    
+
+    &__search{
+        width: 80%;
+        height: 6%;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        label{
+            background-color: chocolate;
+            
+        }
+
+        input{
+            width: 80%;   
+        }
+    }
+
+    &__list{
+        height: 94%;    
+        list-style: none;
+        width: 100%;
+        background-color: rgb(124, 117, 107);
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        li{
+            height: 16%;
+            margin-bottom: 1%;
+            background-color: blueviolet;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+      
+    }
+
+    
+    &__conversation{
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(89, 132, 170);
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__dialogue{
+        width: 80%;
+        background-color: crimson;
+    }
+   
+    &__pic{
+        background-color: thistle;
+        width: 15%;
+        
+        border-radius: 50%;
+       
+    }
+
+    &__unread{
+        background-color: blue;
+        width: 5%;
+    }
+}

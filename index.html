@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Chat</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a href="">pagina principal</a></li>
+                <li class="navbar__item"><a href="">preguntas frecuentes</a></li>
+                <li class="navbar__item"><a href="">manuales y tutoriales</a></li>
+                <li class="navbar__item"><a href="">noticias</a></li>
+                <li class="navbar__item"><a href="">calendario</a></li>
+                <li class="navbar__item"><a href="">administracion de perfil</a></li>
+                <li class="navbar__item"><a href="">organigrama de la empresa</a></li>
+                <li class="navbar__item"><a href="">chat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="history">
+            <div class="history__search">
+                <input type="text">
+                <label for="">lupa</label>
+            </div>
+
+            <ul class="history__list">
+                <li>
+                    <figure class="history__conversation">
+                        <img class="history__pic" src="assets/img/profile_dog.jpg" alt="">
+                        <figcaption class="history__dialogue">
+                            <h3>perro1</h3>
+                            hola te llame ayer 
+                        </figcaption>
+                        <div class="history__unread">o</div>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="history__conversation">
+                        <img class="history__pic" src="assets/img/profile_dog2.jpg" alt="">
+                        <figcaption class="history__dialogue">
+                            <h3>perro2</h3>
+                            guauguauguau 
+                        </figcaption>
+                        <div class="history__unread">o</div>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class="chat">
+            <div class="chat__person"> perro 1</div>
+
+ <!-- +++++++++++++ en este div se almacena la conversacion +++++++++++++++++++++++++ -->
+            <div class="chat__dialogue" id="chat-dialogue">
+                <!-- <div class="chat__record in1">hola</div>
+                <div class="chat__record in2">hola, como estas ?</div> -->
+                
+            </div>
+           
+           
+            <div class="chat__input">
+                <button>O</button>
+                <input id="input_sentence" type="text">
+                <button id="btn-send">send</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

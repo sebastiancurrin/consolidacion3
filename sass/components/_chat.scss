@@ -1,0 +1,42 @@
+.chat{
+    display:inline-flex;
+    vertical-align: top;
+    width: 73%;
+    background-color: darkgray;
+    height: 91vh;
+    flex-direction: column;
+
+    // contenedor de las oraciones de la conversacion
+    &__dialogue{
+        background-color: rgb(188, 210, 230);
+        height: 93%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
+      //  justify-content: flex-end;
+        overflow-y: scroll;
+
+        .in1{
+            background-color: rgb(196, 158, 108);
+            align-self: flex-start;
+        }
+
+        
+    }
+
+    &__input{
+        background-color: rgb(123, 158, 115);
+        height: 7%;
+        
+    }
+
+    &__record{
+
+        width: 45%;
+        margin: 1%;
+        padding: 2%;
+        background-color: darkkhaki;
+    }
+
+
+}

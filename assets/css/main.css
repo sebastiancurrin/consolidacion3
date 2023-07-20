@@ -1,0 +1,111 @@
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  background-color: blue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 7vh; }
+  .header .navbar__list {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    text-align: center; }
+  .header .navbar__item {
+    width: 10%;
+    list-style: none;
+    padding: 1%; }
+    .header .navbar__item a {
+      color: white;
+      text-decoration: none; }
+
+.history {
+  display: inline-flex;
+  vertical-align: top;
+  background-color: bisque;
+  height: 91vh;
+  width: 26%;
+  flex-direction: column;
+  align-items: center; }
+  .history__search {
+    width: 80%;
+    height: 6%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    .history__search label {
+      background-color: chocolate; }
+    .history__search input {
+      width: 80%; }
+  .history__list {
+    height: 94%;
+    list-style: none;
+    width: 100%;
+    background-color: #7c756b;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .history__list li {
+      height: 16%;
+      margin-bottom: 1%;
+      background-color: blueviolet;
+      border: 1px solid black;
+      overflow: hidden; }
+  .history__conversation {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5984aa;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  .history__dialogue {
+    width: 80%;
+    background-color: crimson; }
+  .history__pic {
+    background-color: thistle;
+    width: 15%;
+    border-radius: 50%; }
+  .history__unread {
+    background-color: blue;
+    width: 5%; }
+
+.chat {
+  display: inline-flex;
+  vertical-align: top;
+  width: 73%;
+  background-color: darkgray;
+  height: 91vh;
+  flex-direction: column; }
+  .chat__dialogue {
+    background-color: #bcd2e6;
+    height: 93%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    overflow-y: scroll; }
+    .chat__dialogue .in1 {
+      background-color: #c49e6c;
+      align-self: flex-start; }
+  .chat__input {
+    background-color: #7b9e73;
+    height: 7%; }
+  .chat__record {
+    width: 45%;
+    margin: 1%;
+    padding: 2%;
+    background-color: darkkhaki; }
+
+.main {
+  background-color: cornflowerblue;
+  text-align: center; }
